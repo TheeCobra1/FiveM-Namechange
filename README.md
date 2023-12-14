@@ -9,16 +9,6 @@ This Lua script is designed for game servers to allow players to set custom name
 - View and display your custom player name.
 - Automatic data saving to persist custom names.
 
-## Installation
-
-1. Place the `namechange.lua` script in your game server's resources directory.
-
-2. Configure the `dataFilePath` variable in the script to specify the path where custom names will be saved in JSON format.
-
-3. Make sure you have the necessary JSON library available in your Lua environment for encoding and decoding JSON data.
-
-4. Ensure that this script is started with your game server's resource manager.
-
 ## Commands
 
 - `/char [new name] [color number]`: Set your custom player name with an optional color code. Color codes range from 1 to 10, representing different colors. Example: `/char John 2` sets your name to "John" in green.
